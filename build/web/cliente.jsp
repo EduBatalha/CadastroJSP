@@ -1,9 +1,3 @@
-<%-- 
-    Document   : cliente
-    Created on : 14/09/2023, 20:15:24
-    Author     : alunos
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.util.List" %>
 <%@page import="java.text.*" import="java.lang.*"%>
@@ -24,7 +18,6 @@
             <%
                  // Recebendo dados
             String nome = request.getParameter("nome");
-            String dataNasc = request.getParameter("datanasc");
             String email = request.getParameter("email");
             String senha = request.getParameter("senha");
             String endereco = request.getParameter("endereco");
@@ -33,6 +26,14 @@
             String cep = request.getParameter("cep");
             String telefone = request.getParameter("telefone");
             String cpf = request.getParameter("cpf");
+            
+            
+            // Recebendo dados da data de nascimento
+            String dia = request.getParameter("dia");
+            String mes = request.getParameter("mes");
+            String ano = request.getParameter("ano");
+            String dataNasc = ano + "-" + mes + "-" + dia; // Formatando a data
+
 
             //GRAVAR!
             try {
