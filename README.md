@@ -1,4 +1,4 @@
-#Projeto para demonstrar utilização de JSP.
+# Projeto para demonstrar utilização de JSP.
 
 ## Técnologias: JSP, HTML 5, CSS, JavaScripte SQL
 
