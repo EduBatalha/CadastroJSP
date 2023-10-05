@@ -1,0 +1,37 @@
+body{
+	margin: 20vw;
+        backgrond-color: #FAFAFA;
+    font-family: Montserrat;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw;
+	background-color: #F6F6F6;
+    margin: 8vw;
+    text-align: left;
+}
+
+.birth{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.buttonReset, .buttonSend{
+	width: 7vw;
+}
+
+.buttonSend{
+	background-color: #1586CF;
+	color: #FFFFFF;
+	border: solid #1586CF;
+}
+
+.buttonReset{
+	background-color: #FFFFFF;
+	border: solid #EFEFEF;
+}

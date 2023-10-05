@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+Problema/Necessidade: Criar um cadastro de clientes 
+Data: 14/09/2023
+Autor: Adilson
+Projeto: Controle de Clientes
+-->
+<html>
+<head>
+    <title>Cadastro de Usuários</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body>
+    <h1>Cadastrar Usuário</h1>
+    <form name="frmCliCad" method="post" action="cliente.jsp" class="form">
+        <!-- Nome -->
+        Nome: <input type="text" name="nome" class="field">
+
+        <!-- Data de Nascimento -->
+        Data de Nascimento: 
+        <div class="birth">
+        <select name="dia" id="dia" class="field">
+            <option value="">Dia</option>
+        </select>
+        
+        <select name="mes" id="mes" class="field">
+            <option value="">Mês</option>
+        </select>
+        
+        <select name="ano" id="ano" class="field">
+            <option value="">Ano</option>
+        </select>
+        </div>
+        <hr>
+
+        <!-- Email e Senha -->
+ 
+        Email: <input type="email" name="email" class="field">   
+        Senha: <input type="password" name="senha" class="field">
+        <hr>
+
+        <!-- Endereço -->
+
+        Endereço: <input type="text" name="endereco" class="field">
+        Cidade: <input type="text" name="cidade" class="field"> 
+        Estado: <input type="text" name="estado" class="field"> 
+        Cep: <input type="text" name="cep">
+        Celular: <input type="text" name="telefone" class="field"> 
+        CPF: <input type="text" name="cpf" class="field">
+
+        <!-- Botões para limpar e enviar o formulário -->
+        <p>
+        <input type="reset" name="limpa" value="Limpar" class="buttonReset"> 
+        <input type="submit" name="envia" value="Salvar" class="buttonSend"> 
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
