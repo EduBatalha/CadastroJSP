@@ -1,6 +1,6 @@
 # Projeto para demonstrar utilização de JSP.
 
-## Técnologias: JSP, HTML 5, CSS, JavaScripte SQL
+## Técnologias: JSP, HTML 5, CSS, JavaScript e SQL
 
 ## script de criação do BD
 
