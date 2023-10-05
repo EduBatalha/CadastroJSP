@@ -1,6 +1,8 @@
 body{
-	margin: 20vw;
-        backgrond-color: #FAFAFA;
+	margin: 2vw;
+	margin-left: 25vw;
+	margin-right: 25vw;
+    backgrond-color: #FAFAFA;
     font-family: Montserrat;
 }
 
@@ -9,9 +11,8 @@ body{
 	flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3vw;
+    gap: 0.2vw;
 	background-color: #F6F6F6;
-    margin: 8vw;
     text-align: left;
 }
 
