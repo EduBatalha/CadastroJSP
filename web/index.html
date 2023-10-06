@@ -11,20 +11,20 @@
     <form name="frmCliCad" method="post" action="cliente.jsp" class="form">
         <h1>Cadastrar Usuário</h1>
         <!-- Nome -->
-        Nome: <input type="text" name="nome" class="field">
+        Nome: <input required type="text" name="nome" class="field">
 
         <!-- Data de Nascimento -->
         Data de Nascimento: 
-        <div class="birth">
-        <select name="dia" id="dia" class="field">
+        <div required class="birth">
+        <select required name="dia" id="dia" class="field">
             <option value="">Dia</option>
         </select>
         
-        <select name="mes" id="mes" class="field">
+        <select required name="mes" id="mes" class="field">
             <option value="">Mês</option>
         </select>
         
-        <select name="ano" id="ano" class="field">
+        <select required name="ano" id="ano" class="field">
             <option value="">Ano</option>
         </select>
         </div>
@@ -32,18 +32,18 @@
 
         <!-- Email e Senha -->
  
-        Email: <input type="email" name="email" class="field">   
-        Senha: <input type="password" name="senha" class="field">
+        Email: <input required type="email" name="email" class="field">   
+        Senha: <input required type="password" name="senha" class="field">
         <hr>
 
         <!-- Endereço -->
 
-        Endereço: <input type="text" name="endereco" class="field">
-        Cidade: <input type="text" name="cidade" class="field"> 
-        Estado: <input type="text" name="estado" class="field"> 
-        Cep: <input type="text" name="cep">
-        Celular: <input type="text" name="telefone" class="field"> 
-        CPF: <input type="text" name="cpf" class="field">
+        Endereço: <input required type="text" name="endereco" class="field">
+        Cidade: <input required type="text" name="cidade" class="field"> 
+        Estado: <input required type="text" name="estado" class="field"> 
+        Cep: <input required type="text" name="cep">
+        Celular: <input required type="text" name="telefone" class="field"> 
+        CPF: <input required type="text" name="cpf" class="field">
 
         <!-- Botões para limpar e enviar o formulário -->
         <p>
