@@ -63,9 +63,11 @@
                 out.println("<div class='line'></div>");;
                 out.println("<br> Nome: " + nome);
                 out.println("<br> Data nascimento: " + dataNasc);
+                out.println("<div></div>");;
                 out.println("<div class='line'></div>");;
                 out.println("<br> Email: " + email);
                 out.println("<br> Senha: " + senha);
+                out.println("<div></div>");;
                 out.println("<div class='line'></div>");;
                 out.println("<br> Endereco: " + endereco);
                 out.println("<br> Cidade: " + cidade);
@@ -73,6 +75,7 @@
                 out.println("<br> Cep: " + cep);
                 out.println("<br> Telefone: " + telefone);
                 out.println("<br> CPF: " + cpf);
+                out.println("<div></div>");;
                 out.println("<div class='line'></div>");;
                 out.println("Registrado com sucesso");
             } catch (Exception ex) {
